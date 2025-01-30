@@ -42,7 +42,7 @@ return [
     ],
 
     'api' => [
-        'driver' => 'sanctum', // MUHIM! 'token' emas, 'sanctum' bo‘lishi kerak
+        'driver' => 'passport', // 'sanctum' emas, 'passport' bo‘lishi kerak!
         'provider' => 'users',
     ],
 ],
